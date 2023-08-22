@@ -1,0 +1,94 @@
+body{
+    margin: 2px 2px 2px 2px;
+    padding: 2px 2px 2px 2px;
+}
+
+/* Above Section */
+
+
+/* Navbar */
+nav{
+    border: 1px solid black;
+    background-color: black;
+    color: whitesmoke;
+    border-radius: 5px;
+    height: 50px;
+    display: flex;
+    justify-content:space-between;
+    margin-top: 10px;
+}
+/* nav .sub_nav{
+    margin: 10px;
+    height: 20px;
+    background-color: black;
+    width: 100%;
+    display: flex;
+} */
+nav .sec-logo{
+    margin: 0;
+}
+nav .sec-logo img{
+    /* max-width: 50px;
+    max-height: 50px; */
+    height: 80px;
+    /* height: 150%; */
+    width: 80%;
+    margin-left: 1rem;
+    border-radius: 50%;
+    margin-bottom: -5px;
+    margin-top: -10px; /* margin = 0
+    /* height: 120px;       
+    width: 120px; */
+}
+nav .sec-logo img:hover{
+    transform: scale(1.2);
+    transition-duration: .5s;
+}
+
+nav .sec-opt{
+    margin: auto;
+}
+nav .sec-opt ul{
+    display: flex;
+    justify-content: center;
+    gap: 4rem;
+    text-decoration: none;
+    list-style: none;
+    
+}
+nav .sec-opt ul li:hover{
+    cursor: pointer;
+    transform: scale(1.05);
+    transition-duration: .5s;    
+    list-style:disc;
+}
+nav .sec-log-in{
+    justify-content: right;
+    text-align: right;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-right: 1rem;
+}
+nav .sec-log-in ul{
+    display: flex;
+    justify-content: center;
+    gap: 4rem;
+    text-decoration: none;
+    list-style: none;
+}
+
+nav .sec-log-in ul li{
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 2px 2px 2px 2px ;
+    font-size: large;
+}
+
+nav .sec-log-in ul li:hover{
+    background-color: white;
+    color: black;
+    transition-duration: 0.5s   ;
+    cursor: pointer;
+}
+
+
