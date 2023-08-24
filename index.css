@@ -94,13 +94,15 @@ nav .sec-log-in ul li:hover{
 
 
 /* Main Section */
-
+.main-one{
+    border: 1px solid black;
+}
 .main-one img{
     justify-content:center;
     margin: 3rem 3rem 3rem 4rem;
     height: 40rem;
     width: 70rem;
-    border-radius: 10%;    
+    /* border-radius: 10%;     */
 }
 
 .about-us{
