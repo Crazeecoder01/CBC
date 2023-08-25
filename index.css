@@ -2,9 +2,26 @@ body{
     margin: 2px 2px 2px 2px;
     padding: 2px 2px 2px 2px;
     background-image: url("img/shades/header.jpg");
+    background-repeat: no-repeat;
 }
 
 /* Above Section */
+.above-contacts{
+    /* border: 1px solid wheat;
+    background-color: white;
+    border-radius: 2px;
+    height: 2rem; */
+}
+.above-contacts ul{
+    display: flex;
+    list-style: none;
+    justify-content: right;
+    margin-right: 2rem;
+    gap: 1rem;
+    color:whitesmoke;
+    font-weight: bold;
+    font-style:italic;
+}
 
 
 /* Navbar */
@@ -95,7 +112,16 @@ nav .sec-log-in ul li:hover{
 
 /* Main Section */
 .main-one{
-    border: 1px solid black;
+    border: 0px solid black;
+    height: max-content;
+    background-image: url("img/main-1.png"); 
+    background-repeat: no-repeat;
+    background-position: center;
+    transition-duration: .5s;
+}
+.main-one:hover{
+    transform: scale(0.95);
+    transition-duration: .5s;
 }
 .main-one img{
     justify-content:center;
